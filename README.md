@@ -179,3 +179,34 @@ alert(test(5, 15));
 ___El resultado es "3"__
 
 
+### objetos 
+
+* Las propiedades de un objeto son similares a las variables; los métodos son similares a:
+
+* [] operators
+* [] properties
+* [x] functions
+* [] conditionals
+
+
+* ¿Cuál es el resultado de la siguiente expresión?
+var myString = "abcdef";
+document.write(myString.length);
+
+el resulsato es __________6_________
+
+* Complete la expresión para crear un constructor de objetos, teniendo en cuenta que "altura" y "peso" son propiedades y "calcular" es un método para el objeto dado:
+
+function mathCalc (height, weight) {
+
+  this.height = ________height___;
+
+  this.weight =  ______________weight________
+;
+
+  this.sampleCalc = _______________calculate________
+;
+
+}
+
+
