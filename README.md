@@ -56,8 +56,61 @@ true // **boolean**
 el valor de la expresion va a ser igual a **false**
 
 
+### condicionales y bucles 
 
+ * ¿Cuál es el resultado de este código?
+ 
+ var x=0;
+ while(x<6) {
+   x++;
+ }
+ document.write(x);
 
+ El resultado es "6"
+
+* Complete las palabras clave correctas para probar las condiciones:
+____switch___(day_of_week) {
+
+  case 1:
+
+  case 2:
+
+  case 3:
+
+  case 4:
+
+  case 5:
+
+    document.write("Working Days");
+    _____break;____
+    
+;
+
+  case 6:
+
+    document.write("Saturday");
+_________break;_____
+    
+;
+
+  default:
+
+    document.write("Today is Sunday");
+
+    break;
+
+}
+
+* Complete las palabras clave correctas para componer un bucle:
+
+__do__ {
+  document.write(i);
+
+  i++;
+
+}
+
+_____while____ (i < 10);
 
 
 
