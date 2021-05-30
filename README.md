@@ -317,3 +317,86 @@ d.__Style__.____color___="red";
 
 </div>
 
+
+### ECMAScript 6
+
+¿Cuál de las siguientes no es una de las nuevas características de ES6?
+
+* [] Modules
+* [] Template Literals
+* [] Object destructuring
+* [x] Hoisting
+
+Complete los espacios en blanco para declarar un número constante y una función de flecha calc.
+ _____const___ num = 5;
+
+const calc = (x, y, z = num) ____=>___
+ {
+
+  return x + y + z;
+
+}
+
+
+* Complete los espacios en blanco para que la variable arr3 tenga el siguiente aspecto: [1, 2, 3, 4, 5, 6, 7, 8]. 
+
+ const ______arr1_____= [1, 2, 3];
+
+const arr2 = [5, 6, 7, 8];
+
+let arr3 = [____...____arr1, ___4___, ...arr2];
+
+*¿Cuál es la salida del siguiente código?
+const arr1 = [1, 2, 3, 4, 5];
+const arr2 = [...arr1, 6];
+const func = (...rest) => {
+  console.log(rest.length);
+}
+func(...arr1);
+func(...arr2);
+
+* [] 6 5
+* [] rest
+* [] 1
+* [X] 5 6
+
+* ¿Cuál es el resultado de este código?
+const square = num => num * num;
+console.log(square(6) + 6);
+
+El resultados es "42"
+
+* Complete los espacios en blanco para copiar el objeto de usuario al objeto newUser desestructurando las propiedades de nombre y edad. Pase el valor 9999 para la propiedad id.
+const user = {
+
+  name: 'David',
+
+  age: 28,
+
+  id: 1234
+
+};
+
+let newUser = Object.assign({},
+
+  {name, _____age__} = _____user_____,
+
+  {_____id____: 9999});
+
+console.log(newUser);
+
+Complete los espacios en blanco para obtener el siguiente resultado:
+zero = 0
+one = 1
+
+let myMap = new Map();
+
+myMap.set('zero', ____0__);
+
+myMap.__set__('one', 1);
+
+ _____for__(let [key, value] of myMap) {
+
+  console.log(`${__key_} = ${value}`);
+
+}
