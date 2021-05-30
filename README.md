@@ -113,8 +113,69 @@ __do__ {
 _____while____ (i < 10);
 
 
+#### Funciones
 
 
+* ¿El siguiente código dará como resultado qué valor?
+function test(number)
+{
+   while(number < 5) {
+      number++;
+   }
+   return number;
+}
+alert(test(2));
 
+El valor va a ser igual a 5.
+
+* W¿Cuál es el resultado de la siguiente expresión?
+function multNmbrs(a, b) {
+    var c = a*b;
+}
+multNmbrs(2, 6);
+
+El resultado es nada.
+
+
+* Complete los nombres correspondientes para los cuadros de diálogo integrados:
+
+ ____prompt___es para obtener información del usuario;
+
+___alert_____ es para mostrar un mensaje en un cuadro;
+
+* Complete los espacios en blanco para calcular el máximo de los parámetros:
+
+function max(a, b) {
+
+  
+____if__(a >= b)
+
+    return ___a__;
+
+  
+
+      ____else_____
+    return b;
+
+}
+
+* ¿Cuál es la sintaxis correcta para hacer referencia a un script externo llamado "script.js"?
+
+* [x] <script src="script.js">
+* [] <script name="script.js">
+* [] <script href="script.js">
+
+* ¿Qué alerta se mostrará en la pantalla?
+
+function test(a, b) {
+  if(a > b) {
+    return a*b; 
+} else {
+     return b / a; 
+    }
+}
+alert(test(5, 15));
+
+___El resultado es "3"__
 
 
