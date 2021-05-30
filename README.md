@@ -247,3 +247,73 @@ el resultado es "b"
 
 
 La respuesta es______alert(Math.PI);
+
+
+### Dom y Eventos
+
+Complete los espacios en blanco para cambiar el contenido de todas las etiquetas de párrafo de la página a "SoloLearn".
+var arr = ___document___.
+
+  getElementsByTagName("____p___");
+
+for(var x=0; x<arr.length; x++) 
+
+{
+
+   arr[____x____].innerHTML="SoloLearn";
+
+}
+
+* ¿Cuál es el resultado de este código?
+<div id="test">
+<p>some text</p>
+</div>
+<script>
+var el=document.getElementById("test");
+alert(el.hasChildNodes());
+</script>
+* [] false
+* [x] true
+* [] undefined
+
+* Arrastre y suelte las opciones siguientes para cambiar el color del párrafo con id = "p2"" a red.
+<script>
+
+
+var d = document.
+    
+
+______getElemetById______("__p2___");
+
+
+d.__Style__.____color___="red";
+
+
+</script>
+
+* ¿Puede manejar varios eventos en el mismo elemento HTML?
+
+* [] No
+* [X] Yes
+
+
+* Complete los espacios en blanco para alertar un mensaje cuando se hace clic en el botón.
+<button ____onlick_____="msg()">Click me</button>
+
+<script>
+
+ _______function__msg() {
+
+  alert("Hi!");
+
+}
+
+</script>
+
+* Muestre una alerta cuando el puntero del mouse esté sobre la etiqueta div:
+<div _____onmouseover__="alert('Hi!');">
+
+  put the mouse pointer over me
+
+</div>
+
