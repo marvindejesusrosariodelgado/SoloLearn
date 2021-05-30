@@ -210,3 +210,40 @@ function mathCalc (height, weight) {
 }
 
 
+### Objetos esenciales 
+
+* Dada la matriz a continuación, complete la expresión para recibir una alerta con  "apple".
+var fruits = new Array("pear", "orange",
+
+"apple", "grapefruit");
+
+
+
+alert(fruits_____[2]____);
+
+* ¿Cuál es el resultado de la siguiente expresión?
+alert(Math.sqrt(36));
+
+* [] 0
+* [] 12
+* [] 36
+* [x] 6
+
+
+* omplete los espacios en blanco para mostrar los minutos actuales:
+var date = new Date();
+
+alert(_____date__.__get___Minutes());
+
+
+* ¿Cuál es el resultado de este código?
+var arr = new Array("a", "b", "c"); 
+alert(arr[1]);
+
+
+el resultado es "b"
+
+* Arrastre y suelte las opciones siguientes para recibir una alerta con el valor de la constante PI.
+
+
+La respuesta es______alert(Math.PI);
